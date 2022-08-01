@@ -23,7 +23,7 @@ jobs:
             - name: format
               run: yarn run prettier
             - name: lint
-              run: yarn run lint1
+              run: yarn run lint
             - name: typescript
               run: yarn run typescript
             - name: build
