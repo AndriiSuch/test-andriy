@@ -18,10 +18,8 @@ jobs:
               uses: actions/setup-node@v2
               with:
                   node-version: 14.x
-            - name: yarn ci
-              run: yarn ci
-            - name: test
-              run: yarn test
+            - name: yarn install
+              run: yarn install
             - name: format
               run: yarn run prettier
             - name: lint
