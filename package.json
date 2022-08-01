@@ -6,9 +6,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
-    "lint1": "eslint pages --color",
-    "prettier": "prettier src -check",
+    "lint1": "next lint",
+    "lint": "eslint pages --color",
+    "prettier": "prettier pages -check",
     "lint-staged": "lint-staged --config lint-staged.js",
     "husky-install": "husky install",
     "typescript": "tsc --project tsconfig.json --noEmit"
