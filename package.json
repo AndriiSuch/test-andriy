@@ -7,10 +7,11 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "lint1": "eslint src --color",
+    "lint1": "eslint pages --color",
     "prettier": "prettier src -check",
     "lint-staged": "lint-staged --config lint-staged.js",
-    "husky-install": "husky install"
+    "husky-install": "husky install",
+    "typescript" : "tsc --project tsconfig.json --noEmit" 
   },
   "dependencies": {
     "husky": "^8.0.1",
