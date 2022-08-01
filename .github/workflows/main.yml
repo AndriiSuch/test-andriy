@@ -20,8 +20,6 @@ jobs:
                   node-version: 14.x
             - name: yarn install
               run: yarn install
-            - name: test
-              run: yarn test
             - name: format
               run: yarn run prettier
             - name: lint
