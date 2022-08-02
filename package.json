@@ -1,37 +1,37 @@
 {
-  "name": "testtask",
-  "version": "0.1.0",
-  "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint1": "next lint",
-    "lint": "eslint pages --color",
-    "prettier": "prettier pages -check",
-    "lint-staged": "lint-staged --config lint-staged.js",
-    "husky-install": "husky install",
-    "typescript": "tsc --project tsconfig.json --noEmit"
-  },
-  "dependencies": {
-    "husky": "^8.0.1",
-    "lint-staged": "^13.0.3",
-    "next": "12.2.3",
-    "prettier": "^2.7.1",
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
-    "tsc-files": "^1.1.3"
-  },
-  "devDependencies": {
-    "@commitlint/cli": "^17.0.3",
-    "@commitlint/config-conventional": "^17.0.3",
-    "@types/node": "18.6.3",
-    "@types/react": "18.0.15",
-    "@types/react-dom": "18.0.6",
-    "@typescript-eslint/eslint-plugin": "^5.31.0",
-    "@typescript-eslint/parser": "^5.31.0",
-    "eslint": "^8.21.0",
-    "eslint-config-next": "12.2.3",
-    "typescript": "4.7.4"
-  }
+    "name": "testtask",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+        "dev": "next dev",
+        "build": "next build",
+        "start": "next start",
+        "lint": "eslint pages --color",
+        "prettier": "prettier pages -check",
+        "lint-staged": "lint-staged --config lint-staged.cjs",
+        "husky-install": "husky install",
+        "typescript": "tsc --project tsconfig.json --noEmit"
+    },
+    "type": "module",
+    "dependencies": {
+        "next": "12.2.3",
+        "prettier": "^2.7.1",
+        "react": "18.2.0",
+        "react-dom": "18.2.0"
+    },
+    "devDependencies": {
+        "@commitlint/cli": "^17.0.3",
+        "@commitlint/config-conventional": "^17.0.3",
+        "@types/node": "18.6.3",
+        "@types/react": "18.0.15",
+        "@types/react-dom": "18.0.6",
+        "@typescript-eslint/eslint-plugin": "^5.31.0",
+        "@typescript-eslint/parser": "^5.31.0",
+        "eslint": "^8.21.0",
+        "eslint-config-next": "12.2.3",
+        "husky": "^8.0.1",
+        "lint-staged": "^13.0.3",
+        "tsc-files": "^1.1.3",
+        "typescript": "4.7.4"
+    }
 }
